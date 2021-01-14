@@ -17,19 +17,19 @@ package frc.robot;
  */
 public final class Constants {
     public static final class DriveConstants {
-        public static final int kFrontLeftWheelPort = 10;
-        public static final int kFrontRightWheelPort = 11;
-        public static final int kBackLeftWheelPort = 8;
-        public static final int kBackRightWheelPort = 1;
+        public static final int kFrontLeftWheelPort = 8;
+        public static final int kFrontRightWheelPort = 4;
+        public static final int kBackLeftWheelPort = 3;
+        public static final int kBackRightWheelPort = 6;
     }
     
     public static final class IntakeConstants {
-        public static final int kIntakePort = 7;
+        public static final int kIntakePort = 9;
         public static final double kIntakeSpeed = -0.8;
     }
 
     public static final class ShooterConstants {
-        public static final int kShooter1Port = 5;
+        public static final int kShooter1Port = 1;
         public static final int kShooter2Port = 6;
         public static final int kIndexPort = 9;
 
@@ -42,16 +42,16 @@ public final class Constants {
 
     public static final class LiftConstants {
         public static final int kFrontLeftLiftPort = 0;
-        public static final int kFrontRightLiftPort = 2;
+        public static final int kFrontRightLiftPort = 5;
         public static final int kBackLeftLiftPort = 9;
-        public static final int kBackRightLiftPort = 3;
+        public static final int kBackRightLiftPort = 2;
 
         public static final int kTopLimitSwitchPort = 8;
         public static final int kBottomLimitSwitchPort = 7;
     }
 
     public static final class SpinnerConstants {
-        public static final int kSpinnerPort = 4;
+        public static final int kSpinnerPort = 9;
 
         public static final double kIdealSpinnerSpeed = 1;
     }
